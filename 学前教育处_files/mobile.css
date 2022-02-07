@@ -1,0 +1,178 @@
+   .margin_gap {
+	    margin-right: auto !important;
+	    margin-left: auto !important;
+	    line-height: 30px;
+	   }
+   .padding_gap {
+	    padding-right: 0px !important;
+	    padding-left: 0px !important;
+    }
+    
+@media screen and (min-width: 320px)  {
+	.as1_title {
+		width: auto;
+	    word-break: keep-all;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    line-height: 2.2rem;
+	}
+	.content_width{
+		width: 100%;
+		display: table-header-group;
+	}
+	
+	.top_head, .td_div,.search,.advert,.govemmet,.ggcy{
+		display: none;
+	}
+	
+	.sidebar-left{
+	    clear: both;
+	}
+	.sidebar-right{
+	    clear: both;
+	    padding-left: 5px;
+	    line-height: 24px;
+	}
+	
+	.m-width{
+		width: 100%;
+		clear: both;
+		word-wrap: break-word;
+		word-break:break-all;
+		position: absolute;
+		left: 0;
+		top: 150px;
+		padding: 10px;
+		background: #fff;
+		display: block;
+	}
+	.black_font{
+		color: #848282;
+		line-height: 20px;
+	}
+	.clear{
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 414px)  {
+	.top_head, .td_div,.search,.advert,.govemmet,.ggcy{
+		display: none;
+	}
+	.content_width{
+		width: 100%;
+		display: block;
+	}
+	.m-width{
+		width: 100%;
+		clear: both;
+		word-wrap: break-word;
+		word-break:break-all;
+		position: absolute;
+		left: 0;
+		top: 150px;
+		padding: 10px;
+	}
+	.black_font{
+		color: #848282;
+		line-height: 30px;
+	}
+}
+
+@media screen and (min-width: 800px)  {
+	.top_head, .td_div,.search,.advert,.govemmet,.ggcy{
+		display: none;
+	}
+	.content_width{
+		width: 100%;
+		display: block;
+	}
+	.m-width{
+		width: 100%;
+		clear: both;
+		word-wrap: break-word;
+		word-break:break-all;
+		position: absolute;
+		left: 0;
+		top: 150px;
+		padding:0;
+	}
+	.black_font{
+		color: #848282;
+		line-height: 30px;
+	}
+}
+
+@media screen and (min-width: 1024px)  {
+	.top_head, .td_div,.search,.advert,.govemmet,.ggcy{
+		display: block;
+	}
+	.advert {
+		background: #F8FEFE;	
+	}
+	.content_width{
+		width: 100%;
+		display: block;
+	}
+	.search{
+		display: block;
+		width: 100%;
+		background: url(../images/gov_weather_bg.gif);
+	}
+	.m-width{
+		width: 100%;
+		clear: both;
+		word-wrap: break-word;
+		word-break:break-all;
+		position: relative;
+		left: 0;
+		top: 0;
+		padding:0;
+	}
+	.black_font{
+		color: #848282;
+		line-height: 30px;
+	}
+	.white_font{
+		color: #848282;
+		line-height: 30px;
+	}
+}
+
+@media (min-width: 1200px){
+	.container {
+    	max-width: 1000px !important;
+    	background: #fff;
+    }
+    .sidebar-right{
+    	margin-left: 10px;
+    }
+    .zxbs_title{
+	    margin:0px !important;
+	    height: 115px;
+	    font-size: 18px;
+	    line-height: 115px;
+	    border-radius: none;
+	   }
+    .zxbsfl {
+    	background: url(../images/bs_28.jpg) left top no-repeat
+    }
+    .zxbsfl li {
+	    line-height: 4rem;
+	}
+}
+.NewsOverTable{
+	background:url(/cdedu/xhtml/js/newsover.png)!important;
+	color:#fff;
+}
+.NewsOutTable{
+	background:url(/cdedu/xhtml/js/NewsOut.png)!important;
+}
+.NewsOutTable strong,.NewsOverTable  strong{
+	font-size:14px;
+}
+#newsDiv0 a,#newsDiv1 a,#newsDiv2 a{
+	font-size:14px;
+	line-height: 25px;
+}

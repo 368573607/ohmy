@@ -1,0 +1,50 @@
+﻿*{
+	font-size:12px;
+}
+body {
+    font-family:verdana,helvetica,arial,sans-serif;
+    font-size:12px;
+    margin:0px;
+}
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:5px;
+}
+.demo-info{
+	padding:0 0 12px 0;
+}
+.demo-tip{
+	display:none;
+}
+.textbox {
+	height:22px;
+	padding:0 2px;
+}
+.TitleCss {
+    font-family:"����","΢���ź�";
+    font-size:18px;
+    color:#FF9900;
+    text-align: left;
+}
+.CodeBackGround {
+    border: 0;
+    background-color:yellow;
+}
+ .code {
+            /*background-image: url(../images/code.jpg);
+            background-color:yellow;*/
+            font-family: Arial;
+            font-style: italic;
+            color: Red;
+            border: 0;
+            padding: 2px 3px;
+            letter-spacing: 3px;
+            font-weight: bolder;
+            font-size:14px;
+        }
+.TagCss {
+   color:red;
+   font-weight:bold;
+}

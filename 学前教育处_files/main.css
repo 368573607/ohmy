@@ -1,0 +1,113 @@
+.container {
+	max-width:1000px !important;
+}
+.mainShareDiv_24{display:none !important;}
+#gwdShareMainDiv{display:none !important;}
+#ScrollDemo {
+	overflow: hidden;
+	width: 905px;
+	height: 28px;
+	line-height: 2.4rem;
+}
+
+#ScrollinDemo {
+	float: left;
+	width: 800%;
+}
+
+#ScrollDemo1 {
+	float: left;
+}
+
+#ScrollDemo2 {
+	float: left;
+}
+
+.service-table {
+	width: 220px;
+	height: 216px;
+	text-align: center;
+}
+
+.service-table a {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-family: 微软雅黑;
+}
+
+.service-table img {
+	cursor: pointer;
+}
+
+.zxbsbg {
+	width: 1000px;
+    margin: 10px auto;
+}
+
+.zxbs {
+            list-style: none;
+            overflow: hidden;
+            background: url(../images/bs_03.jpg) left top no-repeat;
+            padding-left: 139px;
+            border: 1px #2196f3 solid;
+            margin: 0;
+            height: 108px;
+        }
+
+            .zxbs li {
+                float: left;
+                width: 122px;
+                text-align: center;
+                margin-top: 7px;
+            }
+
+                .zxbs li img {
+                    border: 0;
+                }
+
+        .zxbsfl {
+            list-style: none;
+            overflow: hidden;
+            background: url(../images/bs_28.jpg) left top no-repeat;
+            margin: 20px 0 0;
+            height: 110px;
+            padding: 0;
+        }
+
+            .zxbsfl li {
+                float: left;
+                width: 333px;
+                text-align: center;
+                margin-top: 13px;
+            }
+
+                .zxbsfl li img {
+                    border: 0;
+                }
+/*images*/
+				#divimg{
+				 position:absolute;
+				}
+				#imgNet{
+				 position:absolute; 
+				 filter:alpha(opacity=100);/* IE */
+				 -moz-opacity:1;/* Moz + FF */
+				 opacity: 1;/* 支持CSS3的浏览器（FF 1.5也支持）*/
+				}
+
+.footer{
+	width: 100%;
+	background: url("../images/gov_bottom_2.gif");
+}
+
+.top_img{
+	width: 100%;
+	background: url("../images/gov_bottom_1.gif");
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.footer p{
+	margin-bottom:0px;
+}

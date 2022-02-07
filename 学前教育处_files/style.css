@@ -1,0 +1,75 @@
+﻿td {
+	font-family:"΢���ź�";
+	font-size: 12px;
+	color:#626060;
+	line-height: 220%;
+}
+.c14 {
+	font-family: "΢���ź�";
+	font-size: 14px;
+	line-height: 220%;
+	color: #7B5300;
+	font-weight: bold;
+
+}
+a:link {  font-family: "����"; font-size: 12px;  color: #333333;text-decoration: none;}
+a:visited {  font-family: "����"; font-size: 12px;  color:#333333;text-decoration: none;}
+a:hover {  font-family: "����"; font-size: 12px;  color: #ff0000;text-decoration: underline;}
+
+/*分页*/
+
+#page-div,
+#page-div1,
+#page-div2,
+#page-div3,
+#page-div4,
+#page-div5,
+#page-div6 {
+	width: 80%;
+	margin: 15px auto;
+	text-align: center;
+}
+td strong font{
+	font-size: 18px!important;
+}
+.pagination-first,
+.pagination-last {
+	display: block;
+	margin: 10px;
+}
+
+.pagination-index,
+.pagination-num {
+	border: 1px solid #bfbfbf;
+	margin: 0 3px;
+	padding: 0 10px;
+	display: inline-block;
+	border-radius: 3px;
+	color: #bfbfbf;
+}
+
+.pagination-num.active,
+.pagination-index:hover,
+.pagination-num:hover {
+	background: #bfbfbf;
+	color: white;
+}
+
+.pagination-last>span {
+	margin: 0 10px;
+}
+
+.pagination-last>input {
+	height: 18px;
+	width: 30px;
+	text-align: center;
+}
+
+
+.pagination-first {
+     background: none!important; 
+}
+
+.page_div,.page_div1{
+	text-align: center!important;
+}
